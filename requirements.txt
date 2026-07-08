@@ -1,0 +1,14 @@
+matplotlib>=3.8.0
+numpy>=1.26.0
+pandas>=2.2.0
+requests>=2.32.0
+yfinance>=0.2.40
+lxml>=5.2.0
+html5lib>=1.1
+python-pptx>=1.0.2
+Pillow>=10.4.0
+fastapi>=0.115.0
+uvicorn>=0.30.6
+tableauserverclient>=0.33
+pantab>=5.0.1
+streamlit>=1.37.0

@@ -1,0 +1,27 @@
+
+
+{
+  "servers": {
+    "tableau-agent-tools": {
+      "url": "http://localhost:7777/tableau-mcp"
+    }
+  }
+}
+
+
+// {
+//   "mcpServers": {
+//     "tableau-agent-tools": {
+//       "command": "npx",
+//       "args": ["-y", "@tableau/mcp-server@latest"],
+//       "env": {
+//         "TRANSPORT": "stdio",
+//         "SERVER": "https://10ax.online.tableau.com",
+//         "SITE_NAME": "ai_forest",
+//         "PAT_NAME": "YOUR_TOKEN_NAME",
+//         "PAT_VALUE": "YOUR_SECRET_TOKEN_VALUE",
+//         "DANGEROUSLY_DISABLE_OAUTH": "true"
+//       }
+//     }
+//   }
+// }

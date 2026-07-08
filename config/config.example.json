@@ -1,0 +1,6 @@
+{
+  "LITELLM_COMPLETE_URL": "http://localhost:4004/v1/chat/completions",
+  "LITELLM_MODEL": "gpt-oss:20b",
+  "LITELLM_API_KEY": "YOUR_LITELLM_API_KEY",
+  "LITELLM_MAX_SECONDS": 850
+}

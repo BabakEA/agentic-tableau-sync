@@ -1,0 +1,26 @@
+# version: '3.8'
+
+# services:
+#   tableau-mcp:
+#     image: ghcr.io/tableau/tableau-mcp:latest
+#     container_name: tableau-mcp-sse
+#     ports:
+#       - "7777:8080"
+#     env_file:
+#       - env.list
+#     restart: always
+
+version: '3.8'
+
+services:
+  tableau-mcp:
+    image: ghcr.io/tableau/tableau-mcp:latest
+    container_name: tableau-mcp-sse
+    ports:
+      - "7777:8080"
+    env_file:
+      - env.list
+    environment:
+      - MCP_SSE_PATH=/sse
+      - MCP_MESSAGE_PATH=/message
+    restart: always
