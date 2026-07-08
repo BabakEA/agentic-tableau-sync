@@ -82,7 +82,6 @@ For this repository specifically, the working default connection is:
 Install Python dependencies inside the `MCP` environment:
 
 ```bash
-conda activate MCP
 python -m pip install -r requirements.txt
 ```
 
